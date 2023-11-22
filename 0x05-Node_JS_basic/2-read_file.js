@@ -1,7 +1,6 @@
 const fs = require('fs');
 const countStudents = (dataPath) => {
-  if (!fs.existsSync(dataPath)) {
-    throw new Error('Cannot load the database');
+ if (!fs.existsSync(dataPath)) {throw new Error('Cannot load the database');
   }
   if (!fs.statSync(dataPath).isFile()) {
     throw new Error('Cannot load the database');
