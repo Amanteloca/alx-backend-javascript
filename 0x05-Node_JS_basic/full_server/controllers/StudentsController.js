@@ -1,7 +1,5 @@
 import readDatabase from '../utils';
-
 const VALID_MAJORS = ['CS', 'SWE'];
-
 /**
  * Contains route handlers.
  */
